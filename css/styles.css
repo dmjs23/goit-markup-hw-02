@@ -1,8 +1,8 @@
 body {
   font-family: 'Raleway', sans-serif;
   /*dostępne rozmiary tekstu 200, 400, 600, 800 */
-  margin-left: 15%;
-  margin-right: 15%;
+  width: 1600px;
+  margin: auto;
 }
 a {
   text-decoration: none;
@@ -57,6 +57,7 @@ a {
   font-size: 25px;
   padding-left: 15%;
   padding-right: 15%;
+  height: 600px;
 }
 .button {
   background-color: #2196f3;
@@ -75,6 +76,9 @@ a {
   display: inline-flex;
   list-style: none;
 }
+.main_section_2 li {
+  margin: 10px;
+}
 .main_section_3 {
   text-align: center;
 }
@@ -88,28 +92,35 @@ a {
 .main_section_4 {
   background-color: #f5f4fa;
   text-align: center;
-  padding: 50px;
+  height: 648px;
+}
+.main_section_4 ul {
+  display: inline-flex;
+  list-style: none;
+}
+.main_section_4 li {
+  background-color: #fff;
+  margin: 10px;
+  height: 368px;
 }
 .portfolio_section_1 {
   text-align: center;
 }
 .portfolio_section_2 {
-  padding-left: 15%;
-  padding-right: 15%;
+  text-align: center;
 }
-figure {
-  background-color: #fff;
-  width: 200px;
-  display: inline-block;
-  margin: 10px;
+.portfolio_section_2 ul {
+  list-style: none;
+  display: inline-flex;
 }
-figcaption {
-  padding: 20px;
+.portfolio_section_2 li {
+  margin: 20px;
 }
 footer {
   background-color: #2f303a;
   color: #fff;
   padding: 25px;
+  height: 252px;
 }
 footer address ul {
   margin-left: 7%;
