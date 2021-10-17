@@ -71,11 +71,8 @@ a {
 .button:active {
   transform: scale(0.95);
 }
-.main_section_2 {
-  padding: 50px;
-}
 .main_section_2 ul {
-  display: flex;
+  display: inline-flex;
   list-style: none;
 }
 .main_section_3 {
