@@ -74,6 +74,10 @@ a {
 .main_section_2 {
   padding: 50px;
 }
+.main_section_2 ul {
+  display: flex;
+  list-style: none;
+}
 .main_section_3 {
   text-align: center;
   padding: 50px;
