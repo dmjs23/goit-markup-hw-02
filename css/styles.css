@@ -77,10 +77,13 @@ a {
 }
 .main_section_3 {
   text-align: center;
-  padding: 50px;
 }
-.main_section_3 img {
-  margin: 5px;
+.main_section_3 ul {
+  list-style: none;
+  display: flex;
+}
+.main_section_3 li {
+  margin: 10px;
 }
 .main_section_4 {
   background-color: #f5f4fa;
